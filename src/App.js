@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-		  <h2>making change is as important, right? Yes!!! </h2>
+		  <h2>making change is as important, right? Yes!!!!! </h2>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a

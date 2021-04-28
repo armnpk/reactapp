@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build -f Dockerfile.dev -t armnpk/reactapp .
+
+script:
+  - docker container run armnpk/reactapp npm run test -- --coverage
